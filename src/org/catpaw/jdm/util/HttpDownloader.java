@@ -53,7 +53,7 @@ public class HttpDownloader extends Thread {
 			
 			System.out.println(html);
 
-//			fos.seek(startPos);
+			fos.seek(startPos);
 
 			// long curPos = startPos;
 			// byte[] buf = new byte[1024];
